@@ -1,1 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tee's Accessories GH | Premium Fashion Accessories</title>
+    <meta name="description" content="Discover watches, bags, jewellery and sunglasses selected for modern Ghanaian style. Secure checkout and Ghana-wide delivery.">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
 
+    <!-- Header -->
+    <header>
+        <div class="container nav">
+            <div class="logo">TEE'S <span>ACCESSORIES</span></div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Watches</a></li>
+                <li><a href="#">Bags</a></li>
+                <li><a href="#">Jewellery</a></li>
+                <li><a href="#">Sale</a></li>
+            </ul>
+            <div class="nav-icons">
+                <span title="Search">🔍</span>
+                <span title="Wishlist">♡</span>
+                <span id="cart-icon" title="Cart">🛒 <span class="cart-count" id="cart-count">0</span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <p style="color: var(--primary); font-weight: 600; margin-bottom: 10px; letter-spacing: 1px;">PREMIUM ACCESSORIES • GHANA</p>
+            <h1>Style that moves with you.</h1>
+            <p>Discover watches, bags, jewellery and sunglasses selected for modern Ghanaian style. A cleaner, faster and more immersive shopping experience.</p>
+            <div style="display: flex; gap: 15px; justify-content: center; margin-top: 30px;">
+                <button class="btn btn-primary">SHOP COLLECTION →</button>
+                <button class="btn btn-outline">EXPLORE CATEGORIES</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section style="background: var(--light); padding: 40px 0; border-bottom: 1px solid var(--border);">
+        <div class="container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; text-align: center;">
+            <div>
+                <h4 style="font-size: 1.5rem;">✓</h4>
+                <p style="font-weight: 600;">Authentic quality</p>
+                <p style="color: var(--gray); font-size: 0.9rem;">Curated products</p>
+            </div>
+            <div>
+                <h4 style="font-size: 1.5rem;">↗</h4>
+                <p style="font-weight: 600;">Fast delivery</p>
+                <p style="color: var(--gray); font-size: 0.9rem;">Ghana-wide</p>
+            </div>
+            <div>
+                <h4 style="font-size: 1.5rem;">🔒</h4>
+                <p style="font-weight: 600;">Secure checkout</p>
+                <p style="color: var(--gray); font-size: 0.9rem;">Protected payment</p>
+            </div>
+            <div>
+                <h4 style="font-size: 1.5rem;">↺</h4>
+                <p style="font-weight: 600;">7-day returns</p>
+                <p style="color: var(--gray); font-size: 0.9rem;">Selected products</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop by Style / Categories -->
+    <section class="container" style="padding: 60px 20px;">
+        <h2 class="section-title">Shop by style</h2>
+        <p style="text-align: center; color: var(--gray); margin-bottom: 40px;">Find your signature.</p>
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+            <div class="product-card" style="text-align: center; padding: 30px; cursor: pointer;">
+                <h3 style="font-size: 1.2rem; margin-bottom: 10px;">⌚ Watches</h3>
+                <p style="color: var(--gray); font-size: 0.9rem;">Timepieces with presence</p>
+            </div>
+            <div class="product-card" style="text-align: center; padding: 30px; cursor: pointer;">
+                <h3 style="font-size: 1.2rem; margin-bottom: 10px;">👜 Bags</h3>
+                <p style="color: var(--gray); font-size: 0.9rem;">Everyday premium carry</p>
+            </div>
+            <div class="product-card" style="text-align: center; padding: 30px; cursor: pointer;">
+                <h3 style="font-size: 1.2rem; margin-bottom: 10px;">💍 Jewellery</h3>
+                <p style="color: var(--gray); font-size: 0.9rem;">Details that stand out</p>
+            </div>
+            <div class="product-card" style="text-align: center; padding: 30px; cursor: pointer;">
+                <h3 style="font-size: 1.2rem; margin-bottom: 10px;">🕶️ Sunglasses</h3>
+                <p style="color: var(--gray); font-size: 0.9rem;">Finish the look</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="container" style="padding-bottom: 60px;">
+        <h2 class="section-title">Featured products</h2>
+        <p style="text-align: center; color: var(--gray); margin-bottom: 40px;">Premium accessories for everyday and occasion wear.</p>
+        <div class="grid" id="product-grid">
+            <!-- Products injected via script.js -->
+        </div>
+    </section>
+
+    <!-- Sale Banner -->
+    <section style="background: var(--dark); color: #fff; padding: 60px 20px; text-align: center;">
+        <div class="container">
+            <p style="color: var(--primary); font-weight: 600; margin-bottom: 10px;">LIMITED OFFER</p>
+            <h2 style="font-size: 2.5rem; margin-bottom: 15px;">Complete the look.</h2>
+            <p style="max-width: 600px; margin: 0 auto 30px; color: #ccc;">Save on selected accessories while stock lasts. Build your wardrobe around timeless pieces.</p>
+            <button class="btn btn-primary">SHOP SALE</button>
+        </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="container" style="padding: 80px 20px; text-align: center;">
+        <h2 class="section-title">Customers love the details.</h2>
+        <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); margin-top: 40px;">
+            <div class="product-card" style="padding: 30px; text-align: left;">
+                <p style="color: #f59e0b; margin-bottom: 15px;">★★★★★</p>
+                <p style="font-style: italic; color: var(--gray); margin-bottom: 20px;">“The checkout was simple and the delivery update was clear. The watch looks even better in person.”</p>
+                <p style="font-weight: 600;">— Verified customer</p>
+            </div>
+            <div class="product-card" style="padding: 30px; text-align: left;">
+                <p style="color: #f59e0b; margin-bottom: 15px;">★★★★★</p>
+                <p style="font-style: italic; color: var(--gray); margin-bottom: 20px;">“Beautiful packaging, responsive service and a very clean shopping experience.”</p>
+                <p style="font-weight: 600;">— Verified customer</p>
+            </div>
+            <div class="product-card" style="padding: 30px; text-align: left;">
+                <p style="color: #f59e0b; margin-bottom: 15px;">★★★★★</p>
+                <p style="font-style: italic; color: var(--gray); margin-bottom: 20px;">“I found the exact bag I wanted without having to search through dozens of pages.”</p>
+                <p style="font-weight: 600;">— Verified customer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section style="background: var(--light); padding: 60px 20px; text-align: center;">
+        <div class="container">
+            <h2 style="font-size: 2rem; margin-bottom: 10px;">Stay in the loop</h2>
+            <p style="color: var(--gray); margin-bottom: 30px;">New drops. Private offers. Subscribe for new arrivals and selected offers.</p>
+            <form style="display: flex; gap: 10px; max-width: 400px; margin: 0 auto;" onsubmit="event.preventDefault(); alert('Subscribed!');">
+                <input type="email" placeholder="Your email address" required style="flex: 1; padding: 12px; border: 1px solid var(--border); border-radius: 4px;">
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h4>TEE'S ACCESSORIES GH</h4>
+                    <p style="color: #ccc; font-size: 0.9rem;">Premium fashion accessories for the modern customer. Secure shopping and Ghana-wide delivery.</p>
+                </div>
+                <div>
+                    <h4>SHOP</h4>
+                    <a href="#">All products</a>
+                    <a href="#">Watches</a>
+                    <a href="#">Bags</a>
+                    <a href="#">Jewellery</a>
+                </div>
+                <div>
+                    <h4>HELP</h4>
+                    <a href="#">Shipping & delivery</a>
+                    <a href="#">Returns</a>
+                    <a href="#">FAQs</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div>
+                    <h4>SECURE SHOPPING</h4>
+                    <p style="color: #ccc; font-size: 0.9rem;">🔒 HTTPS secured</p>
+                    <p style="color: #ccc; font-size: 0.9rem; margin-top: 5px;">MTN MoMo • Visa • Mastercard</p>
+                </div>
+            </div>
+            <div class="copyright">© 2026 Tee's Accessories GH. All Rights Reserved. | White + Red Edition • Responsive eCommerce</div>
+        </div>
+    </footer>
+
+    <!-- Cart Slide-out -->
+    <div class="overlay" id="overlay"></div>
+    <div class="cart-slide" id="cart-slide">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <span id="close-cart" style="cursor: pointer; font-size: 1.5rem;">&times;</span>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <p style="text-align: center; color: var(--gray);">Your cart is empty.</p>
+        </div>
+        <div class="cart-footer">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 5px;"><span>Subtotal</span><span id="cart-subtotal">GH₵ 0</span></div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 5px;"><span>Delivery</span><span id="cart-delivery">Calculated at checkout</span></div>
+            <div style="display: flex; justify-content: space-between; font-weight: 700; font-size: 1.2rem; margin-bottom: 15px; border-top: 1px solid var(--border); padding-top: 10px;"><span>Total</span><span id="cart-total">GH₵ 0</span></div>
+            <button class="btn btn-primary" style="width: 100%;" id="proceed-checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <!-- Secure Checkout Modal -->
+    <div class="modal" id="checkout-modal">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+            <h2>Secure Checkout</h2>
+            <span id="close-checkout" style="cursor: pointer; font-size: 1.5rem;">&times;</span>
+        </div>
+        <form id="checkout-form">
+            <h4 style="margin-bottom: 15px; color: var(--primary);">1. Delivery Details</h4>
+            <p style="color: var(--gray); font-size: 0.9rem; margin-bottom: 15px;">Where should we send your order?</p>
+            
+            <div class="form-group">
+                <label>Full name *</label>
+                <input type="text" name="fullName" required>
+            </div>
+            <div class="form-group">
+                <label>Phone *</label>
+                <input type="tel" name="phone" placeholder="+233 2X XXX XXXX" required>
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" name="email">
+            </div>
+            <div class="form-group">
+                <label>Region *</label>
+                <select name="region" id="region" required>
+                    <option value="">Select region</option>
+                    <option value="Greater Accra">Greater Accra</option>
+                    <option value="Ashanti">Ashanti</option>
+                    <option value="Western">Western</option>
+                    <option value="Central">Central</option>
+                    <option value="Eastern">Eastern</option>
+                    <option value="Volta">Volta</option>
+                    <option value="Northern">Northern</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Transporter *</label>
+                <select name="transporter" id="transporter" required>
+                    <option value="">Select transporter</option>
+                    <option value="Local Dispatch">Local Dispatch (Bike)</option>
+                    <option value="Standard Courier">Standard Courier</option>
+                    <option value="STC Cargo">STC Cargo / Bus Parcel</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Delivery address *</label>
+                <input type="text" name="address" required>
+            </div>
+
+            <h4 style="margin: 25px 0 15px; color: var(--primary);">2. Payment Method</h4>
+            <p style="color: var(--gray); font-size: 0.9rem; margin-bottom: 15px;">Choose your preferred method.</p>
+            <div class="radio-group">
+                <label><input type="radio" name="payment" value="MTN MoMo (Pay Before Delivery)" required onchange="toggleMoMoField()"> MTN MoMo (Pay Before Delivery)</label>
+                <label><input type="radio" name="payment" value="Card (Visa/Mastercard)" onchange="toggleMoMoField()"> Card (Visa/Mastercard)</label>
+            </div>
+            
+            <div class="form-group" id="momo-id-container" style="display: none; margin-top: 15px;">
+                <label>MoMo Transaction ID *</label>
+                <input type="text" name="transactionId" id="transactionId" placeholder="Enter 10-12 digit ID from SMS">
+                <small style="color: var(--gray);">Send payment to our MoMo number before placing the order.</small>
+            </div>
+
+            <div style="background: var(--light); padding: 15px; border-radius: 4px; margin-top: 20px; font-size: 0.9rem; border-left: 4px solid var(--primary);">
+                <strong>🤖 AI Agent:</strong> Will process your order, validate payment, and route it to WhatsApp for confirmation.
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 20px; padding: 15px;" id="place-order-btn">PLACE ORDER</button>
+        </form>
+    </div>
+
+    <!-- AI Agent Processing Modal -->
+    <div class="modal agent-modal" id="agent-modal">
+        <div class="spinner" id="agent-spinner"></div>
+        <h3 id="agent-status-text">🤖 AI Agent processing your order...</h3>
+        <p style="color: var(--gray); margin-top: 10px; font-size: 0.9rem;">Tee's Accessories automated assistant</p>
+        <p style="color: var(--gray); margin-top: 20px; font-size: 0.8rem; text-align: left; max-width: 300px; margin-left: auto; margin-right: auto; line-height: 1.8;">
+            • Validating order details<br>
+            • Creating order record<br>
+            • Formatting order for WhatsApp<br>
+            • Routing to WhatsApp +233 26 705 1200
+        </p>
+    </div>
+
+    <script src="/script.js" defer></script>
+</body>
+</html>
